@@ -5,15 +5,15 @@ Implementation of Canny Edge Detector in C++
 
 Original image
 
-![Original image](images/road.jpg)
+<img src="images/road.jpg" alt="Original image" width="400"/> 
 
 Finding the intensity gradient of the image and thresholding *without* denoising by sobel
 
-![Threshold](images/threshold.jpg)
+<img src="images/threshold.jpg" alt="Threshold" width="400"/> 
 
 Finding the intensity gradient and thresholding *with* denoising by sobel
 
-![Threshold+denoising](images/threshold+denoising.jpg)
+<img src="images/threshold+denoising.jpg" alt="Threshold+denoising" width="400"/> 
 
 
 Canny detector
@@ -22,4 +22,4 @@ Canny detector
 3. Double threshold
 4. Edge tracking by hysteresis (only pixels with at least one strong pixel in the neighbourhood are marked as strong pixels). 
 
-![Canny edge detector](images/canny.jpg)
+<img src="images/canny.jpg" alt="Canny edge detector" width="400"/> 
